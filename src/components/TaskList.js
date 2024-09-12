@@ -3,7 +3,7 @@ import TaskItem from './TaskItem';
 
 const TaskList = ({ tasks, updateTask, deleteTask }) => {
   return (
-    <ul>
+    <ul className="space-y-2 p-4">
       {tasks.map(task => (
         <TaskItem
           key={task.id}

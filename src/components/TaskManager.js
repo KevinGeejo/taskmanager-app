@@ -31,8 +31,8 @@ const TaskManager = () => {
   };
 
   return (
-    <div>
-      <h1>Task Manager</h1>
+    <div className='m-32'>
+      <h1 className='text-3xl font-bold mt-20 mb-10'>Task Manager</h1>
       <TaskList
         tasks={tasks}
         updateTask={updateTask}
